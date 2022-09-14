@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-gl.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="bcd71a099062475e8e1eeda1b790dc1c" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_bcd71a099062475e8e1eeda1b790dc1c = echarts.init(
+            document.getElementById('bcd71a099062475e8e1eeda1b790dc1c'), 'white', {renderer: 'canvas'});
+        var option_bcd71a099062475e8e1eeda1b790dc1c = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar3D",
+            "name": "AB-BG publications by Country",
+            "coordinateSystem": "geo3D",
+            "grid3DIndex": 0,
+            "geo3DIndex": 0,
+            "globeIndex": 0,
+            "barSize": 1.5,
+            "bevelSize": 0,
+            "bevelSmoothness": 2,
+            "minHeight": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(data){return data.name + ' ' + data.value[2];}
+            },
+            "emphasis": {},
+            "data": [
+                {
+                    "name": "China",
+                    "value": [
+                        105.0,
+                        35.0,
+                        8,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "USA",
+                    "value": [
+                        -98.5795,
+                        39.828175,
+                        3,
+                        "AG"
+                    ]
+                },
+                {
+                    "name": "Germany",
+                    "value": [
+                        10.5,
+                        51.5,
+                        5,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Brazil",
+                    "value": [
+                        -55.0,
+                        -10.0,
+                        5,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "USA",
+                    "value": [
+                        -90.5795,
+                        39.828175,
+                        4,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Iran",
+                    "value": [
+                        53.0,
+                        32.0,
+                        5,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "China",
+                    "value": [
+                        98.0,
+                        35.0,
+                        4,
+                        "AG"
+                    ]
+                },
+                {
+                    "name": "Italy",
+                    "value": [
+                        12.833333,
+                        42.833333,
+                        4,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "value": [
+                        -96.0,
+                        60.0,
+                        3,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Belgium",
+                    "value": [
+                        4.0,
+                        50.83333,
+                        3,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "India",
+                    "value": [
+                        77.0,
+                        20.0,
+                        2,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "France",
+                    "value": [
+                        2.0,
+                        46.0,
+                        2,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Denmark",
+                    "value": [
+                        10.0,
+                        56.0,
+                        1,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "UK",
+                    "value": [
+                        -4.0,
+                        54.0,
+                        1,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Czech Reublic",
+                    "value": [
+                        15.0,
+                        49.75,
+                        1,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Switzerland",
+                    "value": [
+                        8.135832,
+                        46.942896,
+                        1,
+                        "AG"
+                    ]
+                },
+                {
+                    "name": "Burkina Faso",
+                    "value": [
+                        -2.0,
+                        13.0,
+                        1,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Tanzania",
+                    "value": [
+                        35.0,
+                        -6.0,
+                        1,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Madagascar",
+                    "value": [
+                        47.0,
+                        -20.0,
+                        1,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "Australia",
+                    "value": [
+                        135.0,
+                        -25.0,
+                        1,
+                        "BG"
+                    ]
+                },
+                {
+                    "name": "India",
+                    "value": [
+                        70.0,
+                        20.0,
+                        1,
+                        "AG/BG"
+                    ]
+                },
+                {
+                    "name": "Brazil",
+                    "value": [
+                        -48.0,
+                        -10.0,
+                        1,
+                        "AG/BG"
+                    ]
+                },
+                {
+                    "name": "UAE",
+                    "value": [
+                        54.0,
+                        24.0,
+                        1,
+                        "AG"
+                    ]
+                },
+                {
+                    "name": "Russia",
+                    "value": [
+                        100.0,
+                        60.0,
+                        1,
+                        "BG"
+                    ]
+                }
+            ],
+            "shading": "lambert",
+            "zlevel": -10,
+            "silent": false,
+            "animation": true,
+            "animationDurationUpdate": 100,
+            "animationEasingUpdate": "cubicOut"
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "AB-BG publications by Country"
+            ],
+            "selected": {
+                "AB-BG publications by Country": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "geo3D": {
+        "map": "world",
+        "boxWidth": 100,
+        "boxHeight": 10,
+        "regionHeight": 3,
+        "groundPlane": {
+            "show": false,
+            "color": "#aaa"
+        },
+        "instancing": false,
+        "itemStyle": {
+            "color": "rgb(5,101,123)",
+            "borderColor": "rgb(62,215,213)",
+            "borderWidth": 0.3,
+            "opacity": 0.5
+        },
+        "label": {
+            "show": false,
+            "formatter": function(data){data.value[2];}
+        },
+        "emphasis": {
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#76D7C4",
+                "margin": 8,
+                "fontSize": 8,
+                "backgroundColor": "rgba(0,23,11,0)"
+            }
+        },
+        "light": {
+            "main": {
+                "color": "#76D7C4",
+                "intensity": 1.2,
+                "shadow": true,
+                "shadowQuality": "high",
+                "alpha": 40,
+                "beta": 10
+            },
+            "ambient": {
+                "color": "#fff",
+                "intensity": 0.6
+            },
+            "ambientCubemap": {
+                "diffuseIntensity": 0.5,
+                "specularIntensity": 0.5
+            }
+        },
+        "temporalSuperSampling": {
+            "enable": "auto"
+        },
+        "zlevel": -10,
+        "left": "auto",
+        "top": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "width": "auto",
+        "height": "auto"
+    },
+    "title": [
+        {
+            "text": "Review Map",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_bcd71a099062475e8e1eeda1b790dc1c.setOption(option_bcd71a099062475e8e1eeda1b790dc1c);
+    </script>
+</body>
+</html>
